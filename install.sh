@@ -64,6 +64,12 @@ mkdir ~/Downloads
 mkdir ~/Musicas
 mkdir ~/Videos
 mkdir ~/Imagens
+mkdir ~/Obs
+mkdir ~/Projetos
+mkdir ~/Projetos/Clientes 
+mkdir ~/Projetos/Privados
+mkdir ~/Projetos/OpenSource
 
 
-# V:0.1.0
+
+# V:0.1.1
