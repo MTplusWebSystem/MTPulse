@@ -45,6 +45,7 @@ yay -S --noconfirm libdisplay-info
 yay -S --noconfirm cpio 
 yay -S --noconfirm tomlplusplus
 yay -S --noconfirm hyprland
+yay -S --noconfirm debtap
 yay -S --noconfirm kitty 
 yay -S --noconfirm waybar 
 yay -S --noconfirm swww 
@@ -72,4 +73,4 @@ mkdir ~/Projetos/OpenSource
 
 
 
-# V:0.1.1
+# V:0.1.2
