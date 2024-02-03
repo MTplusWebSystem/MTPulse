@@ -17,7 +17,33 @@ cd ~/
 echo "Baixando dependências "
 sleep 4
 
-sudo yay -S gdb ninja gcc cmake meson libxcb xcb-proto xcb-util xcb-util-keysyms libxfixes libx11 libxcomposite xorg-xinput libxrender pixman wayland-protocols cairo pango seatd libxkbcommon xcb-util-wm xorg-xwayland libinput libliftoff libdisplay-info cpio tomlplusplus
+sudo yay -S gdb
+sudo yay -S ninja
+sudo yay -S gcc 
+sudo yay -S cmake 
+sudo yay -S meson 
+sudo yay -S libxcb 
+sudo yay -S xcb-proto 
+sudo yay -S xcb-util 
+sudo yay -S xcb-util-keysyms 
+sudo yay -S libxfixes 
+sudo yay -S libx11 
+sudo yay -S libxcomposite 
+sudo yay -S xorg-xinput 
+sudo yay -S libxrender 
+sudo yay -S pixman 
+sudo yay -S wayland-protocols 
+sudo yay -S cairo 
+sudo yay -S pango 
+sudo yay -S seatd 
+sudo yay -S libxkbcommon 
+sudo yay -S xcb-util-wm 
+sudo yay -S xorg-xwayland 
+sudo yay -S libinput 
+sudo yay -S libliftoff 
+sudo yay -S libdisplay-info 
+sudo yay -S cpio 
+sudo yay -S tomlplusplus
 
 sudo pacman -S hyprland
 echo "Criando diretorios"
@@ -27,10 +53,5 @@ mkdir ~/Musicas
 mkdir ~/Videos
 mkdir ~/Imagens
 
-mv hypr ~/.config/
-mv sdt ~/.config/
-mv extras ~/.config/
-mv waybar ~/.config/
-mv kitty ~/.config/
 
 # V:0.9
