@@ -62,6 +62,8 @@ yay -S --noconfirm thunar
 echo "Criando diretorios"
 sleep 4
 mkdir ~/Downloads
+mkdir ~/Screenshots
+mkdir ~/Documents
 mkdir ~/Musicas
 mkdir ~/Videos
 mkdir ~/Imagens
@@ -73,4 +75,4 @@ mkdir ~/Projetos/OpenSource
 
 
 
-# V:0.1.2
+# V:0.1.3
