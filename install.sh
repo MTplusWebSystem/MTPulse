@@ -17,34 +17,19 @@ cd ~/
 echo "Baixando dependências "
 sleep 4
 
-yay -S --noconfirm gdb
-yay -S --noconfirm ninja
-yay -S --noconfirm gcc 
-yay -S --noconfirm cmake 
-yay -S --noconfirm meson 
-yay -S --noconfirm libxcb 
-yay -S --noconfirm xcb-proto 
-yay -S --noconfirm xcb-util 
-yay -S --noconfirm xcb-util-keysyms 
-yay -S --noconfirm libxfixes 
-yay -S --noconfirm libx11 
-yay -S --noconfirm libxcomposite 
-yay -S --noconfirm xorg-xinput 
-yay -S --noconfirm libxrender 
-yay -S --noconfirm pixman 
-yay -S --noconfirm wayland-protocols 
-yay -S --noconfirm cairo 
-yay -S --noconfirm pango 
-yay -S --noconfirm seatd 
-yay -S --noconfirm libxkbcommon 
-yay -S --noconfirm xcb-util-wm 
-yay -S --noconfirm xorg-xwayland 
-yay -S --noconfirm libinput 
-yay -S --noconfirm libliftoff 
-yay -S --noconfirm libdisplay-info 
-yay -S --noconfirm cpio 
-yay -S --noconfirm tomlplusplus
-yay -S --noconfirm hyprland
+yay -S gdb ninja gcc cmake meson libxcb xcb-proto xcb-util xcb-util-keysyms libxfixes libx11 libxcomposite xorg-xinput libxrender pixman wayland-protocols cairo pango seatd libxkbcommon xcb-util-wm xorg-xwayland libinput libliftoff libdisplay-info cpio tomlplusplus
+
+echo "Baixando Hyprland "
+sleep 4
+git clone --recursive https://github.com/hyprwm/Hyprland
+cd Hyprland
+sleep 4
+make all && sudo make install
+sleep 4
+echo "Baixando dependências gráficas"
+yay -S --noconfirm qt5-wayland qt5ct qt6-wayland qt6ct qt5-svg qt5-quickcontrols2 qt5-graphicaleffects gtk3 polkit-gnome pipewire wireplumber jq wl-clipboard cliphist python-requests pacman-contrib
+sleep 4
+echo "Baixando utilitários "
 yay -S --noconfirm debtap
 yay -S --noconfirm kitty 
 yay -S --noconfirm waybar 
@@ -75,4 +60,4 @@ mkdir ~/Projetos/OpenSource
 
 
 
-# V:0.1.3
+# V:0.1.5
