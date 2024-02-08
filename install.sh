@@ -21,7 +21,7 @@ yay -S gdb ninja gcc cmake meson libxcb xcb-proto xcb-util xcb-util-keysyms libx
 
 echo "Baixando Hyprland "
 sleep 4
-git clone --recursive https://github.com/hyprwm/Hyprland
+git clone https://github.com/hyprwm/Hyprland
 cd Hyprland
 make all && sudo make install
 sleep 4
@@ -59,4 +59,4 @@ mkdir ~/Projetos/OpenSource
 
 
 
-# V:0.1.6
+# V:0.1.7
