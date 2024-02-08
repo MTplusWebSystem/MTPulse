@@ -23,7 +23,6 @@ echo "Baixando Hyprland "
 sleep 4
 git clone --recursive https://github.com/hyprwm/Hyprland
 cd Hyprland
-sleep 4
 make all && sudo make install
 sleep 4
 echo "Baixando dependências gráficas"
@@ -60,4 +59,4 @@ mkdir ~/Projetos/OpenSource
 
 
 
-# V:0.1.5
+# V:0.1.6
