@@ -21,9 +21,7 @@ yay -S gdb ninja gcc cmake meson libxcb xcb-proto xcb-util xcb-util-keysyms libx
 
 echo "Baixando Hyprland "
 sleep 4
-git clone https://github.com/hyprwm/Hyprland
-cd Hyprland
-make all && sudo make install
+sudo pacman -S hyprland 
 sleep 4
 echo "Baixando dependências gráficas"
 yay -S --noconfirm qt5-wayland qt5ct qt6-wayland qt6ct qt5-svg qt5-quickcontrols2 qt5-graphicaleffects gtk3 polkit-gnome pipewire wireplumber jq wl-clipboard cliphist python-requests pacman-contrib
@@ -59,4 +57,4 @@ mkdir ~/Projetos/OpenSource
 
 
 
-# V:0.1.7
+# V:0.1.8
