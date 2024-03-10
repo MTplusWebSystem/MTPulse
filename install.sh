@@ -27,6 +27,7 @@ echo "Baixando dependências gráficas"
 yay -S --noconfirm qt5-wayland qt5ct qt6-wayland qt6ct qt5-svg qt5-quickcontrols2 qt5-graphicaleffects gtk3 polkit-gnome pipewire wireplumber jq wl-clipboard cliphist python-requests pacman-contrib
 sleep 4
 echo "Baixando utilitários "
+sudo pacman -S font-manager
 yay -S --noconfirm debtap
 yay -S --noconfirm kitty 
 yay -S --noconfirm waybar 
@@ -57,4 +58,4 @@ mkdir ~/Projetos/OpenSource
 
 
 
-# V:0.1.8
+# V:0.1.9
